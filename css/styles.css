@@ -14,10 +14,10 @@ html body {
     font-size: 45px;
 }
 
-.nav-wrapper ul li a {
-    color: #1DB2CB !important;
+#image-banner img {
+    margin: 6px 0 0 55px; 
 }
 
-#banner-image {
-    margin-top: 4px;
+.nav-wrapper ul li a {
+    color: #1DB2CB !important;
 }
