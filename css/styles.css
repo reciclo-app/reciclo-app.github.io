@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+html body {
+    font-family: 'Handlee', cursive;
+}
+
+#navbar {
+    box-shadow: unset;
+    background-color: transparent;
+}
+
+#nav-title {
+    color: #1DB2CB;
+    font-size: 45px;
+}
+
+.nav-wrapper ul li a {
+    color: #1DB2CB !important;
+}
+
+#banner-image {
+    margin-top: 4px;
+}
