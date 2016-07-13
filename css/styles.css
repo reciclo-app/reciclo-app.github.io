@@ -8,39 +8,65 @@ h1, h3  {
     color: #1DB2CB;
 }
 
+/****************************
+        NAVBAR
+*****************************/
 #navbar {
     box-shadow: unset;
     background-color: transparent;
+    position: fixed;
+    transition: 0.9s;
 }
 
+.toggle-on-scroll {
+    background-color: #B0BEC5 !important;
+}
+
+.toggle-text-on-scroll {
+    color: #1DB2CB !important;
+}
+
+/****************************
+        NAVBAR TITLE
+*****************************/
 #nav-title {
-    color: #1DB2CB;
+    color: #FFFFFF;
     font-size: 45px;
+    transition: 0.9s;
 }
 
+/****************************
+        NAVBAR ITENS
+*****************************/
+.nav-wrapper ul li a {
+    font-size: 20px; 
+    color: #FFFFFF !important;
+}
+
+/****************************
+        IMAGE DIV
+*****************************/
 #image-banner img {
     margin: 6px 0 0 55px; 
 }
 
+/****************************
+        IMAGE
+*****************************/
 #background-banner {
     background-image: url('../images/background.jpg');
     height: 600px;
 }
 
-.nav-wrapper ul li a {
-    font-size: 20px; 
-    color: #1DB2CB !important;
-}
-
 /****************************
-            ROWS
+        ROWS
 *****************************/
 .reciclo-row {
     padding: 22px 0 20px 0;
 }
 
 /****************************
-            COLORS
+        COLORS
 *****************************/
 .reciclo-grey {
     background-color: #E0E0E0 !important; 
