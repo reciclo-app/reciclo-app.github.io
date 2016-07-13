@@ -28,7 +28,15 @@ h1, h3  {
 }
 
 .nav-wrapper ul li a {
+    font-size: 20px; 
     color: #1DB2CB !important;
+}
+
+/****************************
+            ROWS
+*****************************/
+.reciclo-row {
+    padding: 22px 0 20px 0;
 }
 
 /****************************
