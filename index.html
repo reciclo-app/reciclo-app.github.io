@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./node_modules/materialize-css/dist/css/materialize.min.css">
     <script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <!-- Jquery imports -->
-    <script type="text/javascript" src="./node_modules/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
 </head>
 <body>
     <!-- Banners and navbar -->
@@ -24,10 +24,10 @@
                         <span id="nav-title">Reciclô</span>
                     </div>
                     <ul id="nav-mobile" class="right hide-on-down">
-                        <li><a href="#">Download</a></li>
-                        <li><a href="#">O que é</a></li>
-                        <li><a href="#">Como funciona</a></li>
-                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#download-reciclo">Download</a></li>
+                        <li><a href="#whats-the-project">O que é</a></li>
+                        <li><a href="#how-it-works">Como funciona</a></li>
+                        <li><a href="#who-we-are">Quem somos</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
     </div>
 
     <!-- Download reciclô -->
-    <div class="row reciclo-grey">
+    <div class="row reciclo-grey" id="download-reciclo">
         <div class="row reciclo-row">
             <h1 align="center">Faça o download do Reciclô</h1><br/>  
             <div class="col l3 offset-l2"><img src="./images/android.png"></div>
@@ -46,7 +46,7 @@
     </div>
 
     <!-- What's the project -->
-    <div class="row">
+    <div class="row section scrollspy" id="whats-the-project">
         <div class="row reciclo-row">
             <div class="offset-l2 col l4">
                 <h3 align="justify">Uma plataforma para o compartilhamento de "receitas" para reciclar seus objetos que você não utiliza mais!</h3>
@@ -58,7 +58,7 @@
     </div>
 
     <!-- How it works -->
-    <div class="row">
+    <div class="row section scrollspy" id="how-it-works">
         <div class="row reciclo-row reciclo-blue">
             <div class="offset-l2 col l4">
                 <h3 align="justify" style="color: #FFFFFF">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum, deleniti quas voluptatum qui cum fugiat beatae quam quasi accusantium rem, deserunt id atque veritatis eos natus sunt, expedita voluptate?</h3>
@@ -70,7 +70,7 @@
     </div>
 
     <!-- Who we are -->
-    <div class="row reciclo-row" align="center" style="padding-left: 90px">
+    <div class="row reciclo-row section scrollspy" align="center" id="who-we-are" style="padding-left: 90px">
         <div class="col l3">
             <img class="responsive-img circle" src="./images/andre.jpg" alt="André Felipe Ricarti">
             <p>descrição</p>
@@ -86,4 +86,5 @@
     </div>
 
 </body>
+    <script type="text/javascript" src="./js/toggle-navbar.js"></script>
 </html>
