@@ -4,6 +4,10 @@ html body {
     font-family: 'Handlee', cursive;
 }
 
+h1, h3  {
+    color: #1DB2CB;
+}
+
 #navbar {
     box-shadow: unset;
     background-color: transparent;
@@ -18,6 +22,22 @@ html body {
     margin: 6px 0 0 55px; 
 }
 
+#background-banner {
+    background-image: url('../images/background.jpg');
+    height: 600px;
+}
+
 .nav-wrapper ul li a {
     color: #1DB2CB !important;
+}
+
+/****************************
+            COLORS
+*****************************/
+.reciclo-grey {
+    background-color: #E0E0E0 !important; 
+}
+
+.reciclo-blue {
+    background-color: #1DB2CB !important; 
 }
