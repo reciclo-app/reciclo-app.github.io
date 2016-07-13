@@ -1,0 +1,2 @@
+// Scrollspy initialization
+$('.scrollspy').scrollSpy();
