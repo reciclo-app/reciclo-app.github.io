@@ -38,6 +38,11 @@ h1, h3  {
 /****************************
         NAVBAR ITENS
 *****************************/
+.nav-wrapper ul li:hover {
+    background-color: #1DB2CB;
+    opacity: 0.6;
+}
+
 .nav-wrapper ul li a {
     font-size: 20px; 
     color: #FFFFFF !important;
@@ -55,7 +60,9 @@ h1, h3  {
 *****************************/
 #background-banner {
     background-image: url('../images/background.jpg');
-    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
 }
 
 /****************************
