@@ -59,6 +59,8 @@ h1, h3, h5  {
         IMAGE
 *****************************/
 #background-banner {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     background-image: url('../images/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -111,4 +113,15 @@ h1, h3, h5  {
 .reciclo-icons {
     color: #000;
     font-size: 50px;
+}
+
+/****************************
+        ICONS
+*****************************/
+#img-to-rotate {
+    transition: 0.4s;
+}
+
+#whats-the-project:hover #img-to-rotate{
+    transform: rotate(720deg);
 }
